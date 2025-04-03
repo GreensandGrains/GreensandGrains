@@ -1,0 +1,79 @@
+<svg width="800" height="800" viewBox="0 0 800 800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Bowl background -->
+  <circle cx="400" cy="400" r="380" fill="#f8f8f8" />
+  
+  <!-- Bowl outer rim -->
+  <ellipse cx="400" cy="400" rx="300" ry="150" fill="#e6e6e6" />
+  <path d="M400,550 C553,550 700,484 700,400 S553,250 400,250 S100,316 100,400 S247,550 400,550 Z" fill="#d0d0d0" opacity="0.3" />
+  
+  <!-- Bowl inner area -->
+  <ellipse cx="400" cy="400" rx="280" ry="140" fill="#f3f7e9" />
+  
+  <!-- Salad base -->
+  <g>
+    <!-- Lettuce leaves -->
+    <path d="M200,380 Q280,320 350,370 Q420,310 490,370 Q540,330 600,390 Q580,420 540,410 Q480,370 420,430 Q360,380 290,420 Q240,370 200,380 Z" fill="#a2d869" />
+    <path d="M220,410 Q310,360 390,420 Q470,370 580,430 Q550,450 480,430 Q410,380 340,430 Q270,400 220,410 Z" fill="#7fb45a" />
+    <path d="M250,440 Q330,400 410,450 Q490,400 550,440 Q520,460 450,440 Q380,410 320,440 Q280,430 250,440 Z" fill="#5f9138" />
+    
+    <!-- Spinach leaves -->
+    <ellipse cx="300" cy="390" rx="40" ry="20" fill="#3d741b" transform="rotate(-15, 300, 390)" opacity="0.6" />
+    <ellipse cx="480" cy="380" rx="35" ry="18" fill="#3d741b" transform="rotate(25, 480, 380)" opacity="0.7" />
+    <ellipse cx="380" cy="420" rx="30" ry="15" fill="#3d741b" transform="rotate(5, 380, 420)" opacity="0.8" />
+  </g>
+  
+  <!-- Salad ingredients -->
+  <g>
+    <!-- Tomatoes -->
+    <circle cx="350" cy="370" r="20" fill="#e94037" />
+    <circle cx="450" cy="400" r="18" fill="#e94037" />
+    <circle cx="520" cy="380" r="15" fill="#e94037" />
+    <circle cx="280" cy="410" r="12" fill="#e94037" />
+    
+    <!-- Cucumber slices -->
+    <circle cx="300" cy="380" r="15" fill="#cbf3c8" stroke="#86c183" stroke-width="3" />
+    <circle cx="380" cy="390" r="14" fill="#cbf3c8" stroke="#86c183" stroke-width="3" />
+    <circle cx="480" cy="410" r="13" fill="#cbf3c8" stroke="#86c183" stroke-width="3" />
+    
+    <!-- Carrots -->
+    <ellipse cx="320" cy="370" rx="12" ry="8" fill="#ff9e43" transform="rotate(30, 320, 370)" />
+    <ellipse cx="420" cy="410" rx="14" ry="7" fill="#ff9e43" transform="rotate(-20, 420, 410)" />
+    <ellipse cx="500" cy="390" rx="15" ry="6" fill="#ff9e43" transform="rotate(15, 500, 390)" />
+    
+    <!-- Onion rings -->
+    <ellipse cx="340" cy="395" rx="12" ry="7" fill="#f1f1f1" stroke="#e2d4d4" stroke-width="1" transform="rotate(45, 340, 395)" />
+    <ellipse cx="440" cy="380" rx="10" ry="6" fill="#f1f1f1" stroke="#e2d4d4" stroke-width="1" transform="rotate(-30, 440, 380)" />
+    
+    <!-- Olives -->
+    <circle cx="370" cy="370" r="8" fill="#333333" />
+    <circle cx="460" cy="385" r="7" fill="#333333" />
+    <circle cx="280" cy="390" r="6" fill="#333333" />
+    
+    <!-- Cheese cubes -->
+    <rect x="390" y="395" width="14" height="14" fill="#f9d654" transform="rotate(15, 397, 402)" />
+    <rect x="330" y="385" width="12" height="12" fill="#f9d654" transform="rotate(-10, 336, 391)" />
+    <rect x="490" y="400" width="10" height="10" fill="#f9d654" transform="rotate(25, 495, 405)" />
+    
+    <!-- Bell pepper -->
+    <path d="M360,380 Q370,370 380,380 Q390,390 380,400 Q370,410 360,400 Q350,390 360,380 Z" fill="#f44335" transform="rotate(15, 370, 390)" />
+    <path d="M420,370 Q430,360 440,370 Q450,380 440,390 Q430,400 420,390 Q410,380 420,370 Z" fill="#4caf50" transform="rotate(-20, 430, 380)" />
+  </g>
+  
+  <!-- Garnish on top -->
+  <g>
+    <!-- Herbs -->
+    <path d="M310,350 Q320,340 330,350 Q340,360 330,370 Q320,380 310,370 Q300,360 310,350 Z" fill="#4caf50" opacity="0.8" />
+    <path d="M400,340 Q410,330 420,340 Q430,350 420,360 Q410,370 400,360 Q390,350 400,340 Z" fill="#4caf50" opacity="0.8" />
+    <path d="M470,360 Q480,350 490,360 Q500,370 490,380 Q480,390 470,380 Q460,370 470,360 Z" fill="#4caf50" opacity="0.8" />
+    
+    <!-- Salad dressing drizzle -->
+    <path d="M280,370 C320,350 360,380 420,360 C480,340 520,370 560,350" stroke="#ffd54f" stroke-width="3" fill="none" opacity="0.5" />
+    <path d="M320,390 C360,370 400,400 460,380 C520,360 540,390 580,370" stroke="#ffd54f" stroke-width="2" fill="none" opacity="0.4" />
+  </g>
+  
+  <!-- Subtle bowl shine -->
+  <ellipse cx="350" cy="350" rx="120" ry="40" fill="#ffffff" opacity="0.2" />
+  
+  <!-- Bowl rim highlight -->
+  <path d="M150,400 C150,350 300,300 400,300 C500,300 650,350 650,400" stroke="#ffffff" stroke-width="5" fill="none" opacity="0.3" />
+</svg>

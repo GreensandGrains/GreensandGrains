@@ -1,0 +1,102 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background gradient -->
+  <rect width="1600" height="900" fill="#f1f7ee" />
+  
+  <!-- Abstract leaf patterns -->
+  <g opacity="0.7">
+    <!-- Green leaves pattern - left -->
+    <path d="M0,200 Q200,250 100,400 Q50,500 150,600 Q200,650 100,800 L0,900 Z" fill="#a5d3a8" opacity="0.6" />
+    <path d="M0,300 Q100,350 50,500 Q25,600 100,700 L0,700 Z" fill="#76bc7f" opacity="0.7" />
+    
+    <!-- Green leaves pattern - right -->
+    <path d="M1600,100 Q1400,150 1500,300 Q1550,400 1450,500 Q1400,550 1500,700 L1600,800 Z" fill="#a5d3a8" opacity="0.6" />
+    <path d="M1600,200 Q1500,250 1550,400 Q1575,500 1500,600 L1600,600 Z" fill="#76bc7f" opacity="0.7" />
+    
+    <!-- Bottom leaf pattern -->
+    <path d="M400,900 Q600,800 800,900 Q1000,800 1200,900 Z" fill="#85c28b" opacity="0.8" />
+    
+    <!-- Top leaf pattern -->
+    <path d="M400,0 Q600,100 800,0 Q1000,100 1200,0 Z" fill="#85c28b" opacity="0.8" />
+  </g>
+  
+  <!-- Vegetable illustrations (stylized and abstract) -->
+  <!-- Lettuce/Salad Pattern -->
+  <g opacity="0.6" transform="translate(200, 200) scale(0.8)">
+    <path d="M0,0 Q50,-30 100,0 Q150,-30 200,0 Q250,-30 300,0 Q250,30 200,0 Q150,30 100,0 Q50,30 0,0" fill="#77b178" />
+    <path d="M0,0 Q50,-50 100,0 Q150,-50 200,0 Q250,-50 300,0 Q250,50 200,0 Q150,50 100,0 Q50,50 0,0" fill="#5c9c5e" transform="translate(0, 30)" />
+    <path d="M0,0 Q50,-70 100,0 Q150,-70 200,0 Q250,-70 300,0 Q250,70 200,0 Q150,70 100,0 Q50,70 0,0" fill="#478f49" transform="translate(0, 60)" />
+  </g>
+  
+  <!-- Tomato Pattern -->
+  <g opacity="0.5" transform="translate(1000, 300) scale(0.7)">
+    <circle cx="150" cy="150" r="100" fill="#e86f6f" />
+    <path d="M150,60 L170,140 L150,150 L130,140 Z" fill="#5c9c5e" />
+  </g>
+  
+  <!-- Carrot Pattern -->
+  <g opacity="0.5" transform="translate(1200, 600) rotate(-30) scale(0.6)">
+    <path d="M0,0 L100,300 L200,0 Z" fill="#f4a742" />
+    <path d="M100,-20 Q130,30 100,80 Q70,30 100,-20" fill="#5c9c5e" />
+    <path d="M70,-10 Q100,40 70,90 Q40,40 70,-10" fill="#5c9c5e" />
+    <path d="M130,-10 Q160,40 130,90 Q100,40 130,-10" fill="#5c9c5e" />
+  </g>
+  
+  <!-- Cucumber Pattern -->
+  <g opacity="0.4" transform="translate(300, 650) rotate(20) scale(0.7)">
+    <ellipse cx="150" cy="100" rx="150" ry="50" fill="#67a85e" />
+  </g>
+  
+  <!-- Bell Pepper Pattern -->
+  <g opacity="0.5" transform="translate(800, 500) scale(0.6)">
+    <path d="M150,50 Q250,100 200,200 Q150,250 100,200 Q50,100 150,50" fill="#db3f3f" />
+    <path d="M150,30 L170,70 L150,80 L130,70 Z" fill="#5c9c5e" />
+  </g>
+  
+  <!-- Broccoli Pattern -->
+  <g opacity="0.4" transform="translate(600, 200) scale(0.5)">
+    <circle cx="150" cy="150" r="100" fill="#4a8c4c" />
+    <circle cx="100" cy="100" r="50" fill="#3d7c3e" />
+    <circle cx="200" cy="100" r="50" fill="#3d7c3e" />
+    <circle cx="100" cy="200" r="50" fill="#3d7c3e" />
+    <circle cx="200" cy="200" r="50" fill="#3d7c3e" />
+    <circle cx="150" cy="80" r="40" fill="#3d7c3e" />
+    <circle cx="150" cy="220" r="40" fill="#3d7c3e" />
+    <path d="M150,250 L150,350" stroke="#5c9c5e" stroke-width="15" />
+  </g>
+  
+  <!-- Grain Pattern -->
+  <g opacity="0.3" transform="translate(400, 400) scale(0.6)">
+    <path d="M150,100 L150,300" stroke="#d4bc7d" stroke-width="8" />
+    <path d="M130,120 L170,120" stroke="#d4bc7d" stroke-width="6" />
+    <path d="M120,150 L180,150" stroke="#d4bc7d" stroke-width="6" />
+    <path d="M110,180 L190,180" stroke="#d4bc7d" stroke-width="6" />
+    <path d="M100,210 L200,210" stroke="#d4bc7d" stroke-width="6" />
+  </g>
+  
+  <!-- More Grain Pattern -->
+  <g opacity="0.3" transform="translate(900, 150) scale(0.4)">
+    <path d="M150,100 L150,300" stroke="#d4bc7d" stroke-width="8" />
+    <path d="M130,120 L170,120" stroke="#d4bc7d" stroke-width="6" />
+    <path d="M120,150 L180,150" stroke="#d4bc7d" stroke-width="6" />
+    <path d="M110,180 L190,180" stroke="#d4bc7d" stroke-width="6" />
+    <path d="M100,210 L200,210" stroke="#d4bc7d" stroke-width="6" />
+  </g>
+  
+  <!-- Subtle texture overlay -->
+  <rect width="1600" height="900" fill="url(#grain)" opacity="0.05" />
+  
+  <!-- Define patterns -->
+  <defs>
+    <pattern id="grain" patternUnits="userSpaceOnUse" width="100" height="100" patternTransform="scale(0.5)">
+      <rect width="100" height="100" fill="none"/>
+      <rect width="1" height="1" fill="#333" x="25" y="25"/>
+      <rect width="1" height="1" fill="#333" x="75" y="25"/>
+      <rect width="1" height="1" fill="#333" x="25" y="75"/>
+      <rect width="1" height="1" fill="#333" x="75" y="75"/>
+      <rect width="1" height="1" fill="#333" x="0" y="0"/>
+      <rect width="1" height="1" fill="#333" x="50" y="0"/>
+      <rect width="1" height="1" fill="#333" x="0" y="50"/>
+      <rect width="1" height="1" fill="#333" x="50" y="50"/>
+    </pattern>
+  </defs>
+</svg>
